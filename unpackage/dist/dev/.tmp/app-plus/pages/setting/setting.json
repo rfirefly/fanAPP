@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "设置",
+  "animationType": "slide-in-top",
+  "usingComponents": {
+    "select-item": "/components/common/select-item"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "navigationBarTitleText": "小纸条",
+  "animationType": "slide-in-slide-in-bottom",
+  "bounce": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "float": "right",
+        "fontSrc": "/static/font/iconfont.ttf",
+        "fontSize": "18px",
+        "text": " ",
+        "color": "#000000",
+        "colorPressed": "#BBBBBB"
+      }
+    ]
+  },
+  "usingComponents": {
+    "chat-input": "/components/user-chat/chat-input",
+    "chat-list": "/components/user-chat/chat-list"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tag-age": "/components/common/tag-age"
+  }
+}

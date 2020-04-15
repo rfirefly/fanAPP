@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "内容页",
+  "animationType": "slide-in-left",
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "menu"
+      }
+    ]
+  },
+  "usingComponents": {
+    "detail-list": "/components/detail/detail-list",
+    "user-reply": "/components/detail/reply",
+    "chat-input": "/components/user-chat/chat-input",
+    "detail-share": "/components/detail/detail-share"
+  }
+}

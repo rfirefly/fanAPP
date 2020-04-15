@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "账号信息",
+  "usingComponents": {
+    "select-item": "/components/common/select-item"
+  }
+}

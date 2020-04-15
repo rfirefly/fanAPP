@@ -1,0 +1,37 @@
+{
+  "scrollIndicator": "none",
+  "titleNView": {
+    "searchInput": {
+      "align": "center",
+      "backgroundColor": "#f7f7f7",
+      "borderRadius": "15px",
+      "placeholder": "搜索",
+      "placeholderColor": "#CCCCCC",
+      "disabled": true
+    },
+    "buttons": [
+      {
+        "float": "left",
+        "fontSrc": "/static/font/iconfont.ttf",
+        "fontSize": "22px",
+        "text": "",
+        "color": "#ff9619",
+        "colorPressed": "#BBBBBB"
+      },
+      {
+        "float": "right",
+        "color": "#000000",
+        "fontSrc": "/static/font/iconfont.ttf",
+        "fontSize": "22px",
+        "text": "",
+        "colorPressed": "#BBBBBB"
+      }
+    ]
+  },
+  "usingComponents": {
+    "index-list": "/components/index/index-list",
+    "tab-bar": "/components/index/tab-bar",
+    "load-more": "/components/common/load-more",
+    "nothing": "/components/common/nothing"
+  }
+}

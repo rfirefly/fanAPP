@@ -1,0 +1,35 @@
+
+.nav-left .iconfont.data-v-de4cc7aa,
+.nav-right .iconfont.data-v-de4cc7aa {
+	font-size: 22px;
+}
+.nav-left .iconfont.data-v-de4cc7aa {
+	color: #ff9619;
+}
+.nav-title.data-v-de4cc7aa {
+	width: 100%;
+}
+.nav-title .active.data-v-de4cc7aa {
+	color: #000000;
+}
+.nav-title>view.data-v-de4cc7aa {
+	font-size: 34rpx;
+	padding: 0 20rpx;
+	color: #969696;
+	font-weight: bold;
+	position: relative;
+}
+.nav-title>view .nav-title-line.data-v-de4cc7aa {
+	content: '';
+	display: block;
+	position: absolute;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+	border: 5.5rpx solid #FEDE33;
+	width: 45%;
+	bottom: -4rpx;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+

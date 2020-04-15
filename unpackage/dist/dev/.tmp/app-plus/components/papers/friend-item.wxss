@@ -1,0 +1,35 @@
+
+.f-list.data-v-1cdebbea {
+	margin: 0 25rpx;
+	padding: 20rpx 0;
+	border-bottom: 1rpx solid #EEEEEE;
+}
+.f-list .head-pic>image.data-v-1cdebbea {
+	width: 100rpx;
+	height: 100rpx;
+	-webkit-border-radius: 100%;
+	        border-radius: 100%;
+	margin-right: 25rpx;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+	vertical-align: top;
+}
+.f-list .info.data-v-1cdebbea {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.f-list .info .name.data-v-1cdebbea {
+	font-size: 32rpx;
+}
+.f-list .icon-xuanze-yixuan.data-v-1cdebbea,
+.f-list .icon-zengjia1.data-v-1cdebbea{
+	width: 60rpx;
+}
+.f-list .icon-xuanze-yixuan.data-v-1cdebbea {
+	color: #F8791B;
+}
+.f-list .icon-zengjia1.data-v-1cdebbea {
+	color: #CCCCCC;
+}
+

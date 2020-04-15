@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"仿App","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"scrollIndicator":"none","titleNView":{"searchInput":{"align":"center","backgroundColor":"#f7f7f7","borderRadius":"15px","placeholder":"搜索","placeholderColor":"#CCCCCC","disabled":true},"buttons":[{"float":"left","fontSrc":"/static/font/iconfont.ttf","fontSize":"22px","text":"","color":"#ff9619","colorPressed":"#BBBBBB"},{"float":"right","fontSrc":"/static/font/iconfont.ttf","fontSize":"22px","text":"","color":"#000000","colorPressed":"#BBBBBB"}]},"usingComponents":{"index-list":"/components/index/index-list","tab-bar":"/components/index/tab-bar","load-more":"/components/uni-load-more/uni-load-more","nothing":"/components/common/nothing"}}},"pages/news/news.html":{"window":{"titleNView":false,"usingComponents":{"common-list":"/components/common/common-list","news-nav-bar":"/components/news/news-nav-bar","load-more":"/components/common/load-more","news-banner":"/components/news/banner","news-topic-nav":"/components/news/news-topic-nav","news-list":"/components/news/news-list"}}},"pages/papers/papers.html":{"window":{"navigationBarTitleText":"小纸条","enablePullDownRefresh":true,"animationType":"slide-in-bottom","titleNView":{"buttons":[{"float":"left","fontSrc":"/static/font/iconfont.ttf","fontSize":"22px","text":"","color":"#000000","colorPressed":"#BBBBBB"},{"float":"right","fontSrc":"/static/font/iconfont.ttf","fontSize":"22px","text":"","color":"#000000","colorPressed":"#BBBBBB"}]},"usingComponents":{"papers-msg":"/components/papers/papers-msg","load-more":"/components/common/load-more","papers-popup":"/components/papers/papers-popup"}}},"pages/home/home.html":{"window":{"navigationBarTitleText":"我的","scrollIndicator":"none","bounce":"none","titleNView":{"buttons":[{"type":"menu"}]},"usingComponents":{"select-item":"/components/common/select-item","no-login":"/components/home/no-login","has-login":"/components/home/has-login","home-data":"/components/home/home-data","home-ad":"/components/home/home-ad"}}},"pages/search/search.html":{"window":{"enablePullDownRefresh":true,"bounce":"none","scrollIndicator":"none","animationType":"fade-in","titleNView":{"autoBackButton":false,"searchInput":{"autoFocus":true,"align":"left","backgroundColor":"#f7f7f7","borderRadius":"15px","placeholder":"搜索","placeholderColor":"#CCCCCC"},"buttons":[{"float":"right","color":"#000000","fontSize":"15px","text":"取消","colorPressed":"#BBBBBB"}]},"usingComponents":{"index-list":"/components/index/index-list","nothing":"/components/common/nothing","load-more":"/components/uni-load-more/uni-load-more","news-list":"/components/news/news-list"}}},"pages/update-post/update-post.html":{"window":{"titleNView":false,"usingComponents":{"uni-nav-bar":"/components/uni-nav-bar/uni-nav-bar","uni-popup":"/components/uni-popup/uni-popup","upload-image":"/components/common/upload-image"}}},"pages/sign-in/sign-in.html":{"window":{"usingComponents":{}}},"pages/topic-nav/topic-nav.html":{"window":{"navigationBarTitleText":"话题分类","animationType":"slide-in-bottom","bounce":"false","usingComponents":{"news-list":"/components/news/news-list","tab-bar":"/components/index/tab-bar","load-more":"/components/common/load-more","nothing":"/components/common/nothing"}}},"pages/topic-detail/topic-detail.html":{"window":{"enablePullDownRefresh":true,"scrollIndicator":"none","animationType":"slide-in-bottom","titleNView":{"type":"transparent","buttons":[{"type":"menu"}]},"usingComponents":{"topic-head":"/components/topic/topic-head","tab-bar":"/components/index/tab-bar","common-list":"/components/common/common-list","load-more":"/components/common/load-more"}}},"pages/friend-list/friend-list.html":{"window":{"animationType":"slide-in-bottom","titleNView":{"autoBackButton":false,"titleSize":"20px","searchInput":{"align":"left","backgroundColor":"#f7f7f7","borderRadius":"6px","placeholder":"搜索","placeholderColor":"#CCCCCC"},"buttons":[{"float":"right","color":"#000000","fontSize":"15px","text":"取消","colorPressed":"#BBBBBB"}]},"usingComponents":{"tab-bar":"/components/index/tab-bar","friend-item":"/components/papers/friend-item","load-more":"/components/common/load-more","nothing":"/components/common/nothing"}}},"pages/user-chat/user-chat.html":{"window":{"navigationBarTitleText":"小纸条","animationType":"slide-in-slide-in-bottom","bounce":"none","titleNView":{"buttons":[{"float":"right","fontSrc":"/static/font/iconfont.ttf","fontSize":"18px","text":" ","color":"#000000","colorPressed":"#BBBBBB"}]},"usingComponents":{"chat-input":"/components/user-chat/chat-input","chat-list":"/components/user-chat/chat-list"}}},"pages/detail/detail.html":{"window":{"navigationBarTitleText":"内容页","animationType":"slide-in-left","scrollIndicator":"none","bounce":"none","titleNView":{"buttons":[{"type":"menu"}]},"usingComponents":{"detail-list":"/components/detail/detail-list","user-reply":"/components/detail/reply","chat-input":"/components/user-chat/chat-input","detail-share":"/components/detail/detail-share"}}},"pages/setting/setting.html":{"window":{"navigationBarTitleText":"设置","animationType":"slide-in-top","usingComponents":{"select-item":"/components/common/select-item"}}},"pages/set-account/set-account.html":{"window":{"navigationBarTitleText":"修改密码","animationType":"slide-in-left","scrollIndicator":"none","usingComponents":{}}},"pages/set-email/set-email.html":{"window":{"navigationBarTitleText":"修改邮箱","animationType":"slide-in-left","scrollIndicator":"none","usingComponents":{}}},"pages/set-userinfo/set-userinfo.html":{"window":{"navigationBarTitleText":"修改资料","animationType":"slide-in-left","scrollIndicator":"none","usingComponents":{"mpvue-picker":"/components/mpvue-citypicker/mpvueCityPicker"}}},"pages/set-feedback/set-feedback.html":{"window":{"navigationBarTitleText":"意见反馈","animationType":"slide-in-left","scrollIndicator":"none","usingComponents":{"uni-collapse":"/components/uni-collapse/uni-collapse","uni-collapse-item":"/components/uni-collapse-item/uni-collapse-item"}}},"pages/set-about/set-about.html":{"window":{"navigationBarTitleText":"关于","animationType":"slide-in-left","scrollIndicator":"none","usingComponents":{"select-item":"/components/common/select-item"}}},"pages/login/login.html":{"window":{"animationType":"slide-in-left","titleNView":false,"bounce":"none","scrollIndicator":"none","usingComponents":{"uni-status-bar":"/components/uni-status-bar/uni-status-bar","third-login":"/components/common/third-login"}}},"pages/user-space/user-space.html":{"window":{"navigationBarTitleText":"个人空间","animationType":"slide-in-bottom","scrollIndicator":"none","titleNView":{"type":"transparent","buttons":[{"type":"menu"}]},"usingComponents":{"user-space-info":"/components/user-space/user-space-info","home-data":"/components/home/home-data","tab-bar":"/components/index/tab-bar","user-space-homepage":"/components/user-space/user-space-homepage","common-list":"/components/common/common-list","load-more":"/components/uni-load-more/uni-load-more","user-space-popup":"/components/user-space/user-space-popup"}}},"pages/set-bindPhone/set-bindPhone.html":{"window":{"usingComponents":{}}},"pages/set-accountAndSafe/set-accountAndSafe.html":{"window":{"navigationBarTitleText":"账号信息","usingComponents":{"select-item":"/components/common/select-item"}}},"pages/set-user-feedback/set-user-feedback.html":{"window":{"navigationBarTitleText":"应用反馈","bounce":"none","usingComponents":{"chat-input":"/components/user-chat/chat-input","chat-list":"/components/user-chat/chat-list"}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"仿App","navigationBarBackgroundColor":"#FFFFFF","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"#adadad","selectedColor":"#fee42a","backgroundColor":"#FFFFFF","borderStyle":"black","list":[{"pagePath":"pages/index/index.html","text":"index","iconPath":"./static/tabbar/index.png","selectedIconPath":"./static/tabbar/index%20(1).png"},{"pagePath":"pages/news/news.html","text":"news","iconPath":"./static/tabbar/news.png","selectedIconPath":"./static/tabbar/news%20(1).png"},{"pagePath":"pages/papers/papers.html","text":"papers","iconPath":"./static/tabbar/paper.png","selectedIconPath":"./static/tabbar/paper%20(1).png"},{"pagePath":"pages/home/home.html","text":"home","iconPath":"./static/tabbar/home.png","selectedIconPath":"./static/tabbar/home%20(1).png"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/news/news","pages/papers/papers","pages/home/home","pages/search/search","pages/update-post/update-post","pages/sign-in/sign-in","pages/topic-nav/topic-nav","pages/topic-detail/topic-detail","pages/friend-list/friend-list","pages/user-chat/user-chat","pages/detail/detail","pages/setting/setting","pages/set-account/set-account","pages/set-email/set-email","pages/set-userinfo/set-userinfo","pages/set-feedback/set-feedback","pages/set-about/set-about","pages/login/login","pages/user-space/user-space","pages/set-bindPhone/set-bindPhone","pages/set-accountAndSafe/set-accountAndSafe","pages/set-user-feedback/set-user-feedback"],"nvueCompiler":"uni-app","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.6.6","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

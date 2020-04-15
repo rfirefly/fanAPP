@@ -1,0 +1,24 @@
+
+.search {
+	margin: 25rpx;
+}
+.search>input {
+	background: #F4F4F4;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+}
+.search .search-placeholder {
+	text-align: center;
+	font-size: 30rpx;
+}
+.search .search-placeholder::before {
+	letter-spacing: 10rpx;
+}
+.n-content {
+	padding: 25rpx;
+}
+.n-content .renew {
+	font-size: 32rpx;
+	margin-bottom: 10rpx;
+}
+

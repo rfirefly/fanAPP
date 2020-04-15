@@ -1,0 +1,23 @@
+
+.cell-pd.data-v-519ef133 {
+	padding: 22rpx 30rpx;
+}
+.list-pd.data-v-519ef133 {
+	margin-top: 50rpx;
+}
+.del-icon.data-v-519ef133{
+	position: absolute;
+	background: #999999;
+	color: #FFFFFF;
+	font-size: 14rpx;
+	-webkit-border-radius: 8rpx;
+	        border-radius: 8rpx;
+	padding: 2rpx 10rpx;
+	z-index: 1;
+	right: 0;
+	top: 0;
+}
+.uni-uploader__file.data-v-519ef133{
+	position: relative;
+}
+

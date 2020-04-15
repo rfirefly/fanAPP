@@ -1,0 +1,1 @@
+<view class="home-data f-ac-jc"><block wx:for="{{homeData}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view><view><view>{{item.num}}</view><view>{{item.name}}</view></view></view></block></view>

@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/papers/papers",
+    "pages/home/home",
+    "pages/search/search"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "仿App",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#adadad",
+    "selectedColor": "#fee42a",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "index",
+        "iconPath": "./static/tabbar/index.png",
+        "selectedIconPath": "./static/tabbar/index%20(1).png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "news",
+        "iconPath": "./static/tabbar/news.png",
+        "selectedIconPath": "./static/tabbar/news%20(1).png"
+      },
+      {
+        "pagePath": "pages/papers/papers",
+        "text": "papers",
+        "iconPath": "./static/tabbar/paper.png",
+        "selectedIconPath": "./static/tabbar/paper%20(1).png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "home",
+        "iconPath": "./static/tabbar/home.png",
+        "selectedIconPath": "./static/tabbar/home%20(1).png"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "仿App",
+  "compilerVersion": "2.4.6",
+  "usingComponents": {}
+}

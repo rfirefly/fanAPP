@@ -1,0 +1,11 @@
+{
+  "titleNView": false,
+  "usingComponents": {
+    "common-list": "/components/common/common-list",
+    "news-nav-bar": "/components/news/news-nav-bar",
+    "load-more": "/components/common/load-more",
+    "news-banner": "/components/news/banner",
+    "news-topic-nav": "/components/news/news-topic-nav",
+    "news-list": "/components/news/news-list"
+  }
+}

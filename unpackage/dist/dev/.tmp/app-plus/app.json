@@ -1,0 +1,73 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/papers/papers",
+    "pages/home/home",
+    "pages/search/search",
+    "pages/update-post/update-post",
+    "pages/sign-in/sign-in",
+    "pages/topic-nav/topic-nav",
+    "pages/topic-detail/topic-detail",
+    "pages/friend-list/friend-list",
+    "pages/user-chat/user-chat",
+    "pages/detail/detail",
+    "pages/setting/setting",
+    "pages/set-account/set-account",
+    "pages/set-email/set-email",
+    "pages/set-userinfo/set-userinfo",
+    "pages/set-feedback/set-feedback",
+    "pages/set-about/set-about",
+    "pages/login/login",
+    "pages/user-space/user-space",
+    "pages/set-bindPhone/set-bindPhone",
+    "pages/set-accountAndSafe/set-accountAndSafe",
+    "pages/set-user-feedback/set-user-feedback"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "仿App",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#adadad",
+    "selectedColor": "#fee42a",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "index",
+        "iconPath": "./static/tabbar/index.png",
+        "selectedIconPath": "./static/tabbar/index%20(1).png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "news",
+        "iconPath": "./static/tabbar/news.png",
+        "selectedIconPath": "./static/tabbar/news%20(1).png"
+      },
+      {
+        "pagePath": "pages/papers/papers",
+        "text": "papers",
+        "iconPath": "./static/tabbar/paper.png",
+        "selectedIconPath": "./static/tabbar/paper%20(1).png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "home",
+        "iconPath": "./static/tabbar/home.png",
+        "selectedIconPath": "./static/tabbar/home%20(1).png"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "仿App",
+  "compilerVersion": "2.6.6",
+  "usingComponents": {}
+}

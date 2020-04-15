@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"scrollView { margin-bottom: ",[0,120],"; }\n.",[1],"chat-load-more{ padding: ",[0,15]," 0; color: #BBBBBB; }\n.",[1],"chat-load-more-hover{ background: #F4F4F4; }\n",],undefined,{path:"./pages/set-user-feedback/set-user-feedback.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/set-user-feedback/set-user-feedback.wxml') } }));

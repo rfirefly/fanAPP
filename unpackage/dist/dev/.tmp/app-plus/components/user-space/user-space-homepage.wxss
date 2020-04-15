@@ -1,0 +1,14 @@
+
+.space-info-block.data-v-131f18bc{
+	padding: 15rpx 0;
+	border-bottom: 1rpx solid #EEEEEE;
+}
+.space-info-block .block-title.data-v-131f18bc{
+	font-size: 32rpx;
+	font-weight: bold;
+	padding: 15rpx 0;
+}
+.space-info-block .block-content.data-v-131f18bc{
+	color: #AAAAAA;
+}
+

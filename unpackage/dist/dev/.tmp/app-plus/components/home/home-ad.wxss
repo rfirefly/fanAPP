@@ -1,0 +1,10 @@
+
+.home-ad {
+	padding: 20rpx;
+}
+.home-ad>image {
+	width: 100%;
+	-webkit-border-radius: 10rpx 20rpx;
+	        border-radius: 10rpx 20rpx;
+}
+

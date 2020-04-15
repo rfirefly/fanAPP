@@ -1,0 +1,27 @@
+
+.n-list.data-v-0eb2decc {
+	margin: 0 25rpx;
+	padding: 20rpx 0;
+	border-bottom: 1rpx solid #EEEEEE;
+}
+.n-list image.data-v-0eb2decc {
+	width: 150rpx;
+	height: 150rpx;
+	margin-right: 20rpx;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	vertical-align: top;
+}
+.n-list .n-text.data-v-0eb2decc {
+	height: 100%;
+}
+.n-list .n-text>view.data-v-0eb2decc {
+	color: #A4A4A4;
+	line-height: 1.5;
+}
+.n-list .n-text .title.data-v-0eb2decc {
+	font-size: 36rpx;
+	color: #333333;
+	line-height: 1;
+}
+

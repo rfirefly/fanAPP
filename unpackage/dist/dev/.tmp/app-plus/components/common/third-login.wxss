@@ -1,0 +1,28 @@
+
+.third-login {
+	margin-top: 40rpx;
+}
+.third-login .login-item {
+	width: 100rpx;
+	height: 100rpx;
+	-webkit-border-radius: 100%;
+	        border-radius: 100%;
+	text-align: center;
+	margin: 0 40rpx;
+	color: #FFFFFF;
+	overflow: hidden;
+}
+.third-login .login-item>view {
+	font-size: 55rpx;
+	line-height: 100rpx;
+}
+.third-login .login-item .icon-weixin {
+	background: #2BD19B;
+}
+.third-login .login-item .icon-xinlangweibo {
+	background: #FC7729;
+}
+.third-login .login-item .icon-QQ {
+	background: #2CAEFC;
+}
+

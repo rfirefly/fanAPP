@@ -1,0 +1,22 @@
+{
+  "navigationBarTitleText": "个人空间",
+  "animationType": "slide-in-bottom",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "type": "transparent",
+    "buttons": [
+      {
+        "type": "menu"
+      }
+    ]
+  },
+  "usingComponents": {
+    "user-space-info": "/components/user-space/user-space-info",
+    "home-data": "/components/home/home-data",
+    "tab-bar": "/components/index/tab-bar",
+    "user-space-homepage": "/components/user-space/user-space-homepage",
+    "common-list": "/components/common/common-list",
+    "load-more": "/components/uni-load-more/uni-load-more",
+    "user-space-popup": "/components/user-space/user-space-popup"
+  }
+}

@@ -1,0 +1,16 @@
+
+.home-data {
+	padding: 20rpx 40rpx;
+}
+.home-data>view {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	text-align: center;
+	color: #989898;
+}
+.home-data>view view:first-of-type {
+	color: #000000;
+	font-size: 32rpx;
+}
+

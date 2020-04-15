@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"commit-title.",[1],"data-v-34ae041b{ font-size: ",[0,32],"; font-weight: bold; margin: ",[0,20]," ",[0,30],"; }\n",],undefined,{path:"./pages/detail/detail.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/detail/detail.wxml') } }));

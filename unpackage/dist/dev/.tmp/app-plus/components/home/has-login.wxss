@@ -1,0 +1,32 @@
+
+.home-info.data-v-4400abf6{
+	padding: 20rpx;
+}
+.home-info .userhead.data-v-4400abf6{
+	padding-right: 30rpx;
+}
+.home-info .userhead>image.data-v-4400abf6{
+	width: 100rpx;
+	height: 100rpx;
+	-webkit-border-radius: 100%;
+	        border-radius: 100%;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+}
+.home-info .userinfo.data-v-4400abf6{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.home-info .userinfo .user-name.data-v-4400abf6{
+	font-size: 32rpx;
+	font-weight: bold;
+}
+.home-info .userinfo .user-data.data-v-4400abf6{
+	color: #BBBBBB;
+}
+.home-info .icon.data-v-4400abf6{
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+}
+

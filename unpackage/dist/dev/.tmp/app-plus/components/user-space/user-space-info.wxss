@@ -1,0 +1,86 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* common */
+.all-margin.data-v-3ad1587c{
+	margin-top: 20rpx;
+}
+.user-space-head.data-v-3ad1587c{
+	position: relative;
+	height: 500rpx;
+	overflow: hidden;
+}
+.user-space-head>image.data-v-3ad1587c{
+	width: 100%;
+}
+.user-space-head .user-space-info.data-v-3ad1587c{
+	position: absolute;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	top: 135rpx;
+}
+.user-space-head .user-space-info>image.data-v-3ad1587c{
+	width: 150rpx;
+	height: 150rpx;
+	-webkit-border-radius: 100%;
+	        border-radius: 100%;
+}
+.user-space-head .user-space-info .user-space-info-name.data-v-3ad1587c{
+	font-size: 33rpx;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.user-space-head .user-space-info .user-space-info-name>text.data-v-3ad1587c{
+	margin-right: 15rpx;
+	text-shadow: 2rpx 2rpx 10rpx #333333;
+}
+.user-space-head .user-space-info-btn.data-v-3ad1587c{
+	background: #FFE934;
+	color: #333333;
+	padding: 0 15rpx 0 10rpx;
+	-webkit-border-radius: 15rpx;
+	        border-radius: 15rpx;
+	font-size: 28rpx;
+}
+.focus-active.data-v-3ad1587c{
+	background: #FFFFFF !important;
+}
+

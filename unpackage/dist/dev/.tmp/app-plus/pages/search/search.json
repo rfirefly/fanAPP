@@ -1,0 +1,32 @@
+{
+  "enablePullDownRefresh": true,
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "animationType": "fade-in",
+  "titleNView": {
+    "autoBackButton": false,
+    "searchInput": {
+      "autoFocus": true,
+      "align": "left",
+      "backgroundColor": "#f7f7f7",
+      "borderRadius": "15px",
+      "placeholder": "搜索",
+      "placeholderColor": "#CCCCCC"
+    },
+    "buttons": [
+      {
+        "float": "right",
+        "color": "#000000",
+        "fontSize": "15px",
+        "text": "取消",
+        "colorPressed": "#BBBBBB"
+      }
+    ]
+  },
+  "usingComponents": {
+    "index-list": "/components/index/index-list",
+    "nothing": "/components/common/nothing",
+    "load-more": "/components/uni-load-more/uni-load-more",
+    "news-list": "/components/news/news-list"
+  }
+}

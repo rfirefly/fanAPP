@@ -1,0 +1,9 @@
+
+.loader.data-v-2dd4df30 {
+	text-align: center;
+	width: 750rpx;
+	/* display: block; */
+	color: #AAAAAA;
+	padding: 15rpx 0;
+}
+

@@ -1,0 +1,150 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* comment */
+.uni-padding-wrap.data-v-8f971548 {
+       padding: 6rpx 30rpx;
+}
+view.data-v-8f971548 {
+       font-size: 28rpx;
+}
+.uni-comment.data-v-8f971548 {
+       padding: 5rpx 0;
+       display: -webkit-box;
+       display: -webkit-flex;
+       display: flex;
+       -webkit-box-flex: 1;
+       -webkit-flex-grow: 1;
+               flex-grow: 1;
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+       -webkit-flex-direction: column;
+               flex-direction: column;
+}
+.uni-comment-list.data-v-8f971548 {
+       -webkit-flex-wrap: nowrap;
+               flex-wrap: nowrap;
+       padding: 10rpx 0;
+       margin: 10rpx 0;
+       width: 100%;
+       display: -webkit-box;
+       display: -webkit-flex;
+       display: flex;
+}
+.uni-comment-face.data-v-8f971548 {
+       width: 70rpx;
+       height: 70rpx;
+       -webkit-border-radius: 100%;
+               border-radius: 100%;
+       margin-right: 20rpx;
+       -webkit-flex-shrink: 0;
+               flex-shrink: 0;
+       overflow: hidden;
+}
+.uni-comment-face image.data-v-8f971548 {
+       width: 100%;
+       -webkit-border-radius: 100%;
+               border-radius: 100%;
+}
+.uni-comment-body.data-v-8f971548 {
+       width: 100%;
+}
+.uni-comment-top.data-v-8f971548 {
+       line-height: 1.5em;
+       -webkit-box-pack: justify;
+       -webkit-justify-content: space-between;
+               justify-content: space-between;
+}
+.uni-comment-top text.data-v-8f971548 {
+       color: #0A98D5;
+       font-size: 24rpx;
+}
+.uni-comment-date.data-v-8f971548 {
+       line-height: 38rpx;
+       -webkit-box-orient: horizontal;
+       -webkit-box-direction: normal;
+       -webkit-flex-direction: row;
+               flex-direction: row;
+       -webkit-box-pack: justify;
+       -webkit-justify-content: space-between;
+               justify-content: space-between;
+       display: -webkit-box !important;
+       display: -webkit-flex !important;
+       display: flex !important;
+       -webkit-box-flex: 1;
+       -webkit-flex-grow: 1;
+               flex-grow: 1;
+}
+.uni-comment-date view.data-v-8f971548 {
+       color: #666666;
+       font-size: 24rpx;
+       line-height: 38rpx;
+}
+.uni-comment-content.data-v-8f971548 {
+       line-height: 1.6em;
+       font-size: 28rpx;
+       padding: 8rpx 0;
+}
+.uni-comment-replay-btn.data-v-8f971548 {
+       background: #FFF;
+       font-size: 24rpx;
+       line-height: 28rpx;
+       padding: 5rpx 20rpx;
+       -webkit-border-radius: 30rpx;
+               border-radius: 30rpx;
+       color: #333 !important;
+       margin: 0 10rpx;
+}
+.list-inside.data-v-8f971548{
+		background: #F4F4F4;
+		margin: 0;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+}
+.face-inside.data-v-8f971548{
+		margin-left: 15rpx;
+}
+

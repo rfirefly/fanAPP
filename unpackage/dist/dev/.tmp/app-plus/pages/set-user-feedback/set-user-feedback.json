@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "应用反馈",
+  "bounce": "none",
+  "usingComponents": {
+    "chat-input": "/components/user-chat/chat-input",
+    "chat-list": "/components/user-chat/chat-list"
+  }
+}

@@ -1,0 +1,392 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "仿App"
+				"app-plus": {
+					"scrollIndicator": "none",
+					//搜索框设置
+					"titleNView": {
+						"searchInput": {
+							"align": "center",
+							"backgroundColor": "#f7f7f7",
+							"borderRadius": "15px",
+							"placeholder": "搜索",
+							"placeholderColor": "#CCCCCC",
+							"disabled": true
+						},
+						"buttons": [
+							//left
+							{
+								"float": "left",
+								"fontSrc": "/static/font/iconfont.ttf",
+								"fontSize": "22px",
+								"text": "\ue609",
+								"color": "#ff9619",
+								"colorPressed": "#BBBBBB"
+							},
+							//right
+							{
+								"float": "right",
+								"fontSrc": "/static/font/iconfont.ttf",
+								"fontSize": "22px",
+								"text": "\ue653",
+								"color": "#000000",
+								"colorPressed": "#BBBBBB"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/news/news",
+			"style": {
+				"app-plus": {
+					// 禁止原生导航
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/papers/papers",
+			"style": {
+				"navigationBarTitleText":"小纸条",
+				"enablePullDownRefresh":true,
+				"app-plus":{
+					"animationType":"slide-in-bottom",
+					"titleNView":{
+						"buttons": [
+							//left
+							{
+								"float": "left",
+								"fontSrc": "/static/font/iconfont.ttf",
+								"fontSize": "22px",
+								"text": "\ue845",
+								"color": "#000000",
+								"colorPressed": "#BBBBBB"
+							},
+							//right
+							{
+								"float": "right",
+								"fontSrc": "/static/font/iconfont.ttf",
+								"fontSize": "22px",
+								"text": "\ue684",
+								"color": "#000000",
+								"colorPressed": "#BBBBBB"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText":"我的",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"bounce":"none",
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"menu"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"enablePullDownRefresh":true,
+				"app-plus": {
+					"bounce":"none",
+					"scrollIndicator":"none",
+					"animationType":"fade-in",
+					//搜索框设置
+					"titleNView": {
+						"autoBackButton": false,
+						"searchInput": {
+							"autoFocus":true,
+							"align": "left",
+							"backgroundColor": "#f7f7f7",
+							"borderRadius": "15px",
+							"placeholder": "搜索",
+							"placeholderColor": "#CCCCCC"
+						},
+						"buttons": [
+							//right
+							{
+								"float": "right",
+								"color": "#000000",
+								"fontSize": "15px",
+								"text": "取消",
+								"colorPressed": "#BBBBBB"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/update-post/update-post",
+			"style": {
+				"app-plus": {
+					// 禁止原生导航
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/sign-in/sign-in",
+			"style": {}
+		}, {
+			"path": "pages/topic-nav/topic-nav",
+			"style": {
+				"navigationBarTitleText": "话题分类",
+				"app-plus": {
+					"animationType":"slide-in-bottom",
+					"bounce": "false"
+				}
+			}
+		}, {
+			"path": "pages/topic-detail/topic-detail",
+			"style": {
+				"enablePullDownRefresh": true,
+				"scrollIndicator": "none",
+				"app-plus": {
+					"animationType":"slide-in-bottom",
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [{
+							"type": "menu"
+						}]
+					}
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/friend-list/friend-list",
+            "style" : {
+				"app-plus": {
+					"animationType":"slide-in-bottom",
+					//搜索框设置
+					"titleNView": {
+						"autoBackButton": false,
+						"titleSize":"20px",
+						"searchInput": {
+							"align": "left",
+							"backgroundColor": "#f7f7f7",
+							"borderRadius": "6px",
+							"placeholder": "搜索",
+							"placeholderColor": "#CCCCCC"
+						},
+						"buttons": [
+							//right
+							{
+								"float": "right",
+								"color": "#000000",
+								"fontSize": "15px",
+								"text": "取消",
+								"colorPressed": "#BBBBBB"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-chat/user-chat",
+            "style": {
+            	"navigationBarTitleText":"小纸条",
+            	"app-plus":{
+					"animationType":"slide-in-slide-in-bottom",
+					"bounce":"none",
+            		"titleNView":{
+            			"buttons": [
+            				//right
+            				{
+            					"float": "right",
+            					"fontSrc": "/static/font/iconfont.ttf",
+            					"fontSize": "18px",
+            					"text": "\ue628 ",
+            					"color": "#000000",
+            					"colorPressed": "#BBBBBB"
+            				}
+            			]
+            		}
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" : {
+				"navigationBarTitleText": "内容页",
+				"app-plus":{
+					"animationType":"slide-in-left",
+					"scrollIndicator": "none",
+					"bounce": "none",
+					"titleNView":{
+						"buttons":[
+							{
+								"type": "menu"
+							}
+						]
+					}
+					
+				}
+				
+			}
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" : {
+				"navigationBarTitleText":"设置",
+				"app-plus":{
+					"animationType":"slide-in-top"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/set-account/set-account",
+            "style" : {
+				"navigationBarTitleText":"修改密码",
+				"app-plus":{
+					"animationType":"slide-in-left",
+					"scrollIndicator":"none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/set-email/set-email",
+            "style" : {
+				"navigationBarTitleText":"修改邮箱",
+				"app-plus":{
+					"animationType":"slide-in-left",
+					"scrollIndicator":"none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/set-userinfo/set-userinfo",
+            "style" : {
+				"navigationBarTitleText":"修改资料",
+				"app-plus":{
+					"animationType":"slide-in-left",
+					"scrollIndicator":"none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/set-feedback/set-feedback",
+            "style" : {
+				"navigationBarTitleText":"意见反馈",
+				"app-plus":{
+					"animationType":"slide-in-left",
+					"scrollIndicator":"none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/set-about/set-about",
+            "style" : {
+				"navigationBarTitleText":"关于",
+				"app-plus":{
+					"animationType":"slide-in-left",
+					"scrollIndicator":"none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"app-plus":{
+					"animationType":"slide-in-left",
+					"titleNView":false,
+					"bounce":"none",
+					"scrollIndicator":"none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-space/user-space",
+            "style" : {
+				"navigationBarTitleText":"个人空间",
+				"app-plus":{
+					"animationType":"slide-in-bottom",
+					"scrollIndicator":"none",
+					"titleNView":{
+						"type":"transparent",
+						"buttons":[
+							{
+								"type":"menu"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/set-bindPhone/set-bindPhone",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/set-accountAndSafe/set-accountAndSafe",
+            "style" : {
+				"navigationBarTitleText":"账号信息"
+			}
+        }
+        ,{
+            "path" : "pages/set-user-feedback/set-user-feedback",
+            "style" : {
+				"navigationBarTitleText":"应用反馈",
+				"app-plus":{
+					"bounce":"none"
+				}
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "仿App",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+		// "enablePullDownRefresh": true
+	},
+	"tabBar": {
+		"color": "#adadad",
+		"selectedColor": "#fee42a",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "index",
+				"iconPath": "./static/tabbar/index.png",
+				"selectedIconPath": "./static/tabbar/index%20(1).png"
+			},
+			{
+				"pagePath": "pages/news/news",
+				"text": "news",
+				"iconPath": "./static/tabbar/news.png",
+				"selectedIconPath": "./static/tabbar/news%20(1).png"
+			},
+			{
+				"pagePath": "pages/papers/papers",
+				"text": "papers",
+				"iconPath": "./static/tabbar/paper.png",
+				"selectedIconPath": "./static/tabbar/paper%20(1).png"
+			},
+			{
+				"pagePath": "pages/home/home",
+				"text": "home",
+				"iconPath": "./static/tabbar/home.png",
+				"selectedIconPath": "./static/tabbar/home%20(1).png"
+			}
+		]
+	}
+	// ,
+	// "condition": { //模式配置，仅开发期间生效
+	// 	"current": 0, //当前激活的模式(list 的索引项)
+	// 	"list": [{
+	// 		"name": "test", //模式名称
+	// 		"path": "./pages/index/index", //启动页面，必选
+	// 		"query": "" //启动参数，在页面的onLoad函数里面得到
+	// 	}]
+	// }
+}

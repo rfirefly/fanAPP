@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "意见反馈",
+  "animationType": "slide-in-left",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "uni-collapse": "/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/components/uni-collapse-item/uni-collapse-item"
+  }
+}

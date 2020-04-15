@@ -1,0 +1,18 @@
+
+.userinfo-age.data-v-0ef2ddd8 {
+	display: inline-block;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+	font-size: 13rpx;
+	line-height: 1;
+	color: #FFFFFF;
+	padding: 4rpx 6rpx 3rpx 5rpx;
+	background-color: #007AFF;
+}
+.icon-nv.data-v-0ef2ddd8{
+	background: #FF698D;
+}
+.icon-border.data-v-0ef2ddd8{
+	border: 1rpx solid #FFFFFF;
+}
+

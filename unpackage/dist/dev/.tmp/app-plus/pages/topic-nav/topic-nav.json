@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "话题分类",
+  "animationType": "slide-in-bottom",
+  "bounce": "false",
+  "usingComponents": {
+    "news-list": "/components/news/news-list",
+    "tab-bar": "/components/index/tab-bar",
+    "load-more": "/components/common/load-more",
+    "nothing": "/components/common/nothing"
+  }
+}

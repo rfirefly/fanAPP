@@ -1,0 +1,29 @@
+{
+  "animationType": "slide-in-bottom",
+  "titleNView": {
+    "autoBackButton": false,
+    "titleSize": "20px",
+    "searchInput": {
+      "align": "left",
+      "backgroundColor": "#f7f7f7",
+      "borderRadius": "6px",
+      "placeholder": "搜索",
+      "placeholderColor": "#CCCCCC"
+    },
+    "buttons": [
+      {
+        "float": "right",
+        "color": "#000000",
+        "fontSize": "15px",
+        "text": "取消",
+        "colorPressed": "#BBBBBB"
+      }
+    ]
+  },
+  "usingComponents": {
+    "tab-bar": "/components/index/tab-bar",
+    "friend-item": "/components/papers/friend-item",
+    "load-more": "/components/common/load-more",
+    "nothing": "/components/common/nothing"
+  }
+}

@@ -1,0 +1,16 @@
+
+.select-hover.data-v-dff44660{
+	background: #F4F4F4;
+}
+.select.data-v-dff44660{
+	padding: 20rpx 25rpx;
+	border-bottom: 1rpx solid #EEEEEE;
+	/* margin-bottom: 20rpx; */
+}
+.select .left>view.data-v-dff44660:first-of-type{
+	padding-right: 10rpx;
+}
+.select .right.data-v-dff44660{
+	color: #CCCCCC;
+}
+

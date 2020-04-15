@@ -1,0 +1,27 @@
+
+.topic-nav.data-v-f5475272{
+	border-top: 1rpx solid #EEEEEE;
+	border-bottom: 1rpx solid #EEEEEE;
+	padding: 25rpx 30rpx 30rpx 25rpx;
+}
+.topic-nav .top>view.data-v-f5475272{
+	margin-bottom: 20rpx;
+	font-size: 32rpx;
+}
+.topic-nav .top .right.data-v-f5475272{
+	color: #999;
+}
+.topic-nav .content>view.data-v-f5475272{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	background-color: #EEEEEE;
+	text-align: center;
+	font-size: 24rpx;
+	padding: 6rpx;
+	margin: 0 15rpx;
+	-webkit-border-radius: 15rpx;
+	        border-radius: 15rpx;
+	color: #9e9e9e;
+}
+
